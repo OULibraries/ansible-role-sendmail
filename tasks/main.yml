@@ -1,0 +1,6 @@
+---
+# tasks file for sendmail
+- include: yum.yml
+  sudo: yes
+- include: configure.yml
+  sudo: yes

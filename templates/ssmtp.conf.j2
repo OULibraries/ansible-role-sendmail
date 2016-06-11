@@ -1,0 +1,9 @@
+root=
+mailhub={{ smtp_host }}:{{ smtp_port }}
+RewriteDomain={{ smtp_domain }}
+UseTLS=YES
+UseStartTLS=Yes
+AuthMethod=LOGIN
+TLS_CA_File=/etc/pki/tls/certs/ca-bundle.crt
+AuthUser={{ smtp_authuser }}
+AuthPass={{ smtp_authpassword }}
