@@ -15,6 +15,7 @@ Role Variables
 smtp_host: smtp.example.com
 smtp_port: 587
 smtp_domain: example.com
+smtp_from_line_override: NO
 smtp_authuser: me@example.com
 smtp_authpassword: myemailpassword
 sendmail_users:
