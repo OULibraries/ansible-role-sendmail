@@ -23,6 +23,9 @@ sendmail_users:
   - root
 ```
 
+Note that the sendmail_users var is a bit deceptive, as these local users will be aliased to the authenticated account.
+This is handy for getting things working quickly, but it will also overrride any from line that you specify.
+
 Dependencies
 ------------
 
