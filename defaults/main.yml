@@ -1,2 +1,3 @@
 ---
 # defaults file for sendmail
+smtp_start_tls: YES

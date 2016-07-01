@@ -1,7 +1,7 @@
 OULibraries.sendmail
 =========
 
-Sendmail via authenticated SMTP.
+TLS-encrypted sendmail via authenticated SMTP.
 
 Requirements
 ------------
@@ -15,7 +15,8 @@ Role Variables
 smtp_host: smtp.example.com
 smtp_port: 587
 smtp_domain: example.com
-smtp_from_line_override: NO
+smtp_start_tls: YES
+smtp_from_line_override: YES
 smtp_authuser: me@example.com
 smtp_authpassword: myemailpassword
 sendmail_users:
