@@ -1,0 +1,8 @@
+---
+- name: Disable Postfix
+  service:
+    name: "{{ item }}"
+    state: stopped
+    enabled: no
+  with_items:
+    - postfix
