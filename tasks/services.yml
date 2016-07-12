@@ -5,4 +5,4 @@
     state: stopped
     enabled: no
   with_items:
-- postfix
+    - postfix
