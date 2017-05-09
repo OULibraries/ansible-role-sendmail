@@ -38,7 +38,7 @@ Example Playbook
 License
 -------
 
-TBD
+[MIT](https://github.com/OULibraries/ansible-role-sendmail/blob/master/LICENSE)
 
 Author Information
 ------------------
